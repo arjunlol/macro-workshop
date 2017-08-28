@@ -1,0 +1,14 @@
+{
+  "name": "tojs-macro-workshop",
+  "version": "1.0.0",
+  "description": "> Interactive workshop exploring macros and Javascript using sweet.js",
+  "main": "index.js",
+  "scripts": {
+    "build": "sjs src/main.js --out-file dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@sweet-js/cli": "^3.0.13"
+  }
+}
