@@ -1,3 +1,7 @@
+## From the Horse's mouth
+
+Sweet.js is the outcome of Tim Disney's [phd](https://www.disnetdev.com/papers/thesis/).
+
 ## Videos + Articles
 
 - [James Long: Unshackling JavaScript with Macros [JSConf2014]](https://www.youtube.com/watch?v=wTkcGprt5rU)

@@ -4,7 +4,7 @@
   "description": "> Interactive workshop exploring macros and Javascript using sweet.js",
   "main": "index.js",
   "scripts": {
-    "build": "sjs src/main.js --out-file dist/main.js"
+    "build": "sjs src/*.js --out-dir dist/js"
   },
   "author": "",
   "license": "ISC",
