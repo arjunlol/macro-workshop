@@ -1,14 +1,22 @@
 {
   "name": "tojs-macro-workshop",
   "version": "1.0.0",
-  "description": "> Interactive workshop exploring macros and Javascript using sweet.js",
+  "description": "Interactive workshop exploring macros and Javascript using sweet.js",
   "main": "index.js",
   "scripts": {
-    "build": "sjs src/*.js --out-dir dist/js"
+    "start": "gulp"
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "sweet.js": "^0.7.8"
+  },
   "devDependencies": {
-    "@sweet-js/cli": "^3.0.13"
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sweetjs": "^0.6.1",
+    "gulp-watch": "^4.3.11",
+    "nodemon": "^1.12.0"
   }
 }

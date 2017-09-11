@@ -1,0 +1,1 @@
+y + Math.pow(x, Math.pow(10, 100)) - z;

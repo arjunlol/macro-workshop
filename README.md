@@ -6,15 +6,20 @@ Welcome! This workshop provides an introduction to the world of Macros in Javasc
 
 **Get Setup**
 
+Open up your favourite terminal (or least favourite, I guess) and proceed:
+
 ```
 # Clone the repository
-git clone git@github.com:teesloane/[workshop_name].git 
+git clone git@github.com:teesloane/macro-workshop.git
 
-# open up your terminal to where you cloned your directory and run:
+# Install our dependencies!
 npm install
+
+# Boot it up!
+npm run start
 
 ```
 
 # Resources
 
-I've compiled some [notes and references](resources/notes.md) for further readings on macros and other related topics. 
+I've compiled some [notes and references](resources/notes.md) for further readings on macros and other related topics.
