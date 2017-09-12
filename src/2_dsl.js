@@ -1,14 +1,14 @@
 // macros
 
-macro _below_ {
+macro below {
   rule infix {$lhs | $rhs} => {
-    below($lhs, $rhs)
+    _below($lhs, $rhs)
   }
 }
 
-macro _right_ {
+macro rightOf {
   rule infix {$lhs | $rhs} => {
-    right($lhs, $rhs)
+    _rightOf($lhs, $rhs)
   }
 }
 
@@ -18,7 +18,10 @@ function setup() {
   fill(170);
 
 
-  (square _below_ circle) _below_ (circle _below_ circle)
+  // _below(_below(square, square), _below(square, square))
+  // _rightOf(square, square)
+
+  (square rightOf square) below (square below circle)
 }
 
 
