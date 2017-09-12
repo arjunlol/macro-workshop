@@ -22,4 +22,5 @@ npm run start
 
 # Resources
 
-I've compiled some [notes and references](resources/notes.md) for further readings on macros and other related topics.
+- I've compiled some [notes and references](resources/notes.md) for further readings on macros and other related topics.
+- we'll be using [sweet.js](https://www.sweetjs.org/) for this workshop. Note that we're using an [older](http://www.sweetjs.org/doc/main/sweet.html) version of this library that lets us build more cool things, like infix macros and the `|>` operator.

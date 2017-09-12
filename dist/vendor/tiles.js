@@ -41,7 +41,7 @@ function draw_shape(s) {
  * This is to accomodate that SJS cannot handle macros being adjance to parens, as parens are delimiters.
  * so depending on the level of nesting of a preposition; it may receive a shape function or the result of it
  */
-function below(st1, st2) {
+function _below(st1, st2) {
   let shape1 = extractShape(st1)
   let shape2 = extractShape(st2)
   shape1.dx = 0
@@ -50,10 +50,10 @@ function below(st1, st2) {
   return fix_shape(shape2)
 }
 
-function right(st1, st2) {
+function _rightOf(st1, st2) {
   let shape1 = extractShape(st1)
   let shape2 = extractShape(st2)
-  shape1.dx = st2.r - shape1.l
+  shape1.dx = shape2.r - shape1.l
   shape1.dy = 0
   shape2.children.push(shape1)
   return fix_shape(shape2)
