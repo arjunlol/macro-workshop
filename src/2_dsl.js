@@ -18,7 +18,7 @@ function setup() {
   fill(170);
 
 
-  (square _below_ circle) _right_ (circle _below_ circle)
+  (square _below_ circle) _below_ (circle _below_ circle)
 }
 
 
