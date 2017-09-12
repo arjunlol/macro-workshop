@@ -16,9 +16,6 @@ function setup() {
   createCanvas(g.artboard.w, g.artboard.h)
   background(230);
   fill(170);
-
-
-  (square _below_ circle) _right_ (circle _below_ circle)
 }
 
 
